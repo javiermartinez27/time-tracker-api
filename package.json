@@ -1,0 +1,22 @@
+{
+  "name": "time-tracker-api",
+  "version": "1.0.0",
+  "description": "Racing games time tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiermartinez27/time-tracker-api.git"
+  },
+  "author": "Javier Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javiermartinez27/time-tracker-api/issues"
+  },
+  "homepage": "https://github.com/javiermartinez27/time-tracker-api#readme",
+  "dependencies": {
+    "mongoose": "^8.2.1"
+  }
+}
