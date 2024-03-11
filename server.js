@@ -3,6 +3,9 @@ const app = express()
 const PORT = 8000
 const connectDB = require("./db")
 
+app.use(express.json())
+app.use("/api/auth", require("./routes/User.js"))
+
 // Connect to DB
 connectDB()
 const server = app.listen(PORT, () => 
